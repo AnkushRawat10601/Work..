@@ -1,0 +1,594 @@
+
+$color-background:#E5E5E5;
+$color-orange:#F27B1A;
+$color-anchor:#004A7F;
+$color-border:#CFD7ED;
+$color-paragraph:#414141;
+$color-white:#FFFFFF;
+@mixin font-sans{
+  font-family: 'Open Sans';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background: $color-background;
+}
+
+.icici-logo {
+  margin-left: 1.5rem;
+}
+
+.color-bar {
+  margin-top: 1.1rem;
+  height: 5rem;
+  background: $color-orange;
+
+  p {
+    visibility: hidden;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .content-1 {
+    margin-top: 2.2rem;
+    width: 80rem;
+    display: flex;
+    justify-content: space-between;
+
+    .text-1 {
+      width: 19.7rem;
+      height: 2.5rem;
+    @include font-sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+      color: $color-paragraph;
+    }
+
+    .text-2 {
+      width: 10.3rem;
+      height: 1.8rem;
+    @include font-sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+      color: $color-anchor;
+      padding-top: 1rem;
+      text-align: right;
+      text-decoration-line: underline;
+      text-transform: capitalize;
+    }
+  }
+
+  .content-main-2 {
+    width: 80rem;
+    margin-top: 3rem;
+
+    .row-1 {
+      display: flex;
+      padding-left: 2rem;
+
+      .column-1 {
+        width: 3.0rem;
+        height: 3.0rem;
+        position: relative;
+        margin-top: 0;
+
+        .img1 {
+          z-index: 0;
+          position: absolute;
+        }
+
+        .img2 {
+          z-index: 1;
+          position: absolute;
+          left: 1rem;
+          top: 1rem;
+        }
+      }
+
+      .column-2 {
+        .dotted-line {
+          width: 16.4rem;
+          border: 0.1rem dashed #3C8EC9;
+          margin-top: 1.5rem;
+          height: 0;
+        }
+      }
+
+      .column-3 {
+        .dotted-line {
+          width: 16.4rem;
+          border: 0.1rem dashed #3C8EC9;
+          margin-top: 1.5rem;
+          height: 0;
+        }
+      }
+
+      .column-4 {
+        width: 3.0rem;
+        height: 3.0rem;
+        position: relative;
+        margin-top: 0;
+
+        .img1 {
+          z-index: 0;
+          position: absolute;
+        }
+
+        .img2 {
+          z-index: 1;
+          position: absolute;
+          left: 1rem;
+          top: 1rem;
+        }
+      }
+
+      .column-5 {
+        .dotted-line {
+          width: 16.4rem;
+          border: 0.1rem dashed #3C8EC9;
+          margin-top: 1.5rem;
+          height: 0;
+        }
+      }
+
+      .column-6 {
+        .dotted-line {
+          width: 16.4rem;
+          border: 0.1rem dashed #3C8EC9;
+          margin-top: 1.5rem;
+          height: 0;
+        }
+      }
+
+      .column-7 {
+        width: 3.0rem;
+        height: 3.0rem;
+        position: relative;
+        margin-top: 0;
+
+        .img1 {
+          z-index: 0;
+          position: absolute;
+        }
+
+        .img2 {
+          z-index: 1;
+          position: absolute;
+          left: 1rem;
+          top: 1rem;
+        }
+      }
+    }
+
+    .row-2 {
+      margin-top: 1rem;
+      display: flex;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 1.9rem;
+
+      .txt-1 {
+        width: 8.6rem;
+        height: 3.8rem;
+        margin-right: 24.4rem;
+        text-align: center;
+      }
+
+      .txt-2 {
+        width: 12.0rem;
+        height: 3.8rem;
+        margin-right: 25.6rem;
+        text-align: center;
+      }
+
+      .txt-3 {
+        height: 3.8rem;
+        width: 9.4rem;
+        text-align: center;
+      }
+      color: #414141;
+    }
+  }
+
+  .content-3 {
+    margin-top: 3.3rem;
+    margin-bottom: 16.7rem;
+    width: 80rem;
+    height: 73.8rem;
+    background: $color-white;
+    border: 0.05rem solid $color-border;
+    box-shadow: 0 0.2rem 0.8rem rgba(222, 227, 242, 0.4);
+    border-radius: 1rem;
+    padding-top: 2rem;
+    padding-left: 2.3rem;
+    padding-bottom: 4rem;
+
+    .content-3-text-1 {
+      width: 12.7rem;
+      height: 1.8rem;
+    @include font-sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      color: $color-paragraph;
+    }
+
+    .content-3-text-2 {
+      width: 47.3rem;
+      height: 15.1rem;
+      margin-top: 1.5rem;
+      background: $color-white;
+      border: 0.05rem solid $color-border;
+      box-shadow: 0.0rem 0.2rem 0.8rem rgba(222, 227, 242, 0.4);
+      border-radius: 1rem;
+      display: flex;
+
+      .data-1 {
+        border-right: 1px solid $color-border;
+
+        .row-1 {
+          display: flex;
+          width: 29.1rem;
+          height: 7.55rem;
+
+          .column-1 {
+            width: 14.55rem;
+            padding-top: 2rem;
+            padding-left: 2rem;
+
+            .bold {
+            @include font-sans;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 1.4rem;
+              line-height: 1.9rem;
+              color: $color-paragraph;
+            }
+          }
+
+          .column-2 {
+            width: 14.55rem;
+            padding-top: 2rem;
+
+            .bold {
+            @include font-sans;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 1.4rem;
+              line-height: 1.9rem;
+              color: $color-paragraph;
+            }
+
+            .light {
+            @include font-sans;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 1.4rem;
+              line-height: 1.9rem;
+              /* identical to box height */
+              color: $color-paragraph;
+              margin-top: 0.5rem;
+            }
+          }
+        }
+
+        .row-2 {
+          display: flex;
+          width: 29.1rem;
+          height: 7.55rem;
+
+          .column-1 {
+            width: 14.55rem;
+            padding-top: 2rem;
+            padding-left: 2rem;
+
+            .bold {
+            @include font-sans;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 1.4rem;
+              line-height: 1.9rem;
+              color: $color-paragraph;
+            }
+          }
+
+          .column-2 {
+            width: 14.55rem;
+            padding-top: 2rem;
+
+            .bold {
+            @include font-sans;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 1.4rem;
+              line-height: 1.9rem;
+              color: $color-paragraph;
+            }
+
+            .light {
+            @include font-sans;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 1.4rem;
+              line-height: 1.9rem;
+              /* identical to box height */
+              color: $color-paragraph;
+              margin-top: 0.5rem;
+            }
+          }
+        }
+      }
+
+      .data-2 {
+        .txt-1 {
+          width: 18.2rem;
+          height: 7.55rem;
+        @include font-sans;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 1.4rem;
+          line-height: 1.9rem;
+          color: $color-paragraph;
+          padding-top: 2rem;
+          padding-left: 3rem;
+        }
+
+        .txt-2 {
+          padding-left: 3rem;
+          width: 18.2rem;
+          height: 7.55rem;
+          padding-top: 2rem;
+        @include font-sans;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 1.4rem;
+          line-height: 1.9rem;
+          color: $color-paragraph;
+        }
+      }
+    }
+
+    .content-3-text-3 {
+      width: 45.3rem;
+      height: 1.8rem;
+    @include font-sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      color: $color-paragraph;
+      margin-top: 3rem;
+    }
+
+    .content-3-text-4 {
+      width: 5.7rem;
+      height: 1.6rem;
+    @include font-sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+      color: $color-paragraph;
+      margin-top: 1.5rem;
+    }
+
+    .content-3-text-5 {
+      display: flex;
+      margin-top: 1.5rem;
+
+      .content-data-1 {
+        width: 22.1rem;
+        height: 12.1rem;
+        border-radius: 0.2rem;
+      }
+
+      .content-data-2 {
+        margin-left: 2rem;
+
+        p {
+          width: 36.5rem;
+          height: 3.6rem;
+          padding-right: 3rem;
+        @include font-sans;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.2rem;
+          line-height: 1.8rem;
+          color: $color-paragraph;
+          span{
+font-weight: 600;
+          }
+        }
+
+        .content-data-2-btn {
+          p {
+            margin-top: 2.7rem;
+            letter-spacing: 5.6rem;
+            width: 0.9rem;
+            height: 1.9rem;
+          @include font-sans;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.4rem;
+            line-height: 1.9rem;
+            /* identical to box height */
+            color: $color-paragraph;
+            margin-bottom: 0.9rem;
+            padding-left: 2rem;
+          }
+
+          .btn {
+            width: 5.5rem;
+            height: 3.0rem;
+            background: $color-white;
+            border: 0.1rem solid #6E8CA6;
+            border-radius: 0.7rem;
+            margin-right: 1rem;
+          }
+        }
+      }
+    }
+
+    .content-3-text-6 {
+      margin-top: 3rem;
+
+      p {
+        width: 13.8rem;
+        height: 1.9rem;
+      @include font-sans;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+        /* identical to box height */
+        color: $color-paragraph;
+      }
+    }
+
+    .content-3-text-7 {
+      display: flex;
+
+      .input-field {
+        margin-top: 1rem;
+
+        input {
+          width: 18.0rem;
+          height: 2.8rem;
+          background: $color-white;
+          border: 0.1rem solid #6E8CA6;
+          border-radius: 0.7rem;
+        }
+      }
+
+      .keyboard {
+        margin-top: 1.25rem;
+        margin-left: 1rem;
+        width: 2.7rem;
+        height: 2.3rem;
+      }
+
+      .data {
+        margin-top: 1.65rem;
+        margin-left: 1.5rem;
+        width: 39.0rem;
+        height: 1.6rem;
+      @include font-sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        color: $color-paragraph;
+      }
+    }
+
+    .content-3-text-8 {
+      margin-left: 12.3rem;
+      margin-top: 1rem;
+      width: 6.0rem;
+      height: 1.1rem;
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.0rem;
+      line-height: 1.1rem;
+      color: $color-anchor;
+    }
+
+    .content-3-text-9 {
+      margin-top: 2rem;
+
+      .txt-1 {
+        padding-right: 5rem;
+        margin-top: 2rem;
+        width: 55.0rem;
+        height: 3.6rem;
+      @include font-sans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        color: $color-paragraph;
+      }
+
+      .txt-2 {
+        p {
+          width: 577px;
+          height: 36px;
+        @include font-sans;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+          color: $color-paragraph;
+          padding-right: 7rem;
+
+          a {
+            text-decoration-line: underline;
+            text-transform: capitalize;
+            color: $color-anchor;
+          }
+        }
+      }
+    }
+
+    .content-3-text-10 {
+      margin-top: 4rem;
+
+      .btn-1 {
+        width: 13.1rem;
+        height: 3.9rem;
+        background: $color-orange;
+        border-radius: 2.0rem;
+        border: 0;
+        color: white;
+      @include font-sans;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        text-align: center;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase;
+        margin-right: 3rem;
+      }
+
+      .btn-2 {
+        width: 13.1rem;
+        height: 3.9rem;
+        border: 0.2px solid $color-orange;
+        border-radius: 2.0rem;
+        background-color: white;
+        color: $color-orange;
+      @include font-sans;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        text-align: center;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
