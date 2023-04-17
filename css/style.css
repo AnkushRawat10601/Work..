@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background: #FFFFFF; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .container .container-1 {
+    width: 90rem;
+    margin-top: 5rem; }
+    .container .container-1 .container-img {
+      height: 3.4rem;
+      width: 3.4rem;
+      padding-left: 86rem; }
+      .container .container-1 .container-img img {
+        width: 3.4rem;
+        height: 3.4rem; }
+  .container .container-2 {
+    width: 90rem;
+    height: 1.6rem;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #000000; }
+    .container .container-2 span {
+      font-weight: 700; }
+  .container .container-3 {
+    width: 90rem;
+    height: 6rem;
+    margin-top: 2.5rem;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+    color: #000000; }
+  .container .container-4 {
+    width: 90rem;
+    height: 2.120rem;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 2.120rem;
+    color: #000000;
+    margin-top: 1.5rem; }
+  .container .container-5 {
+    width: 90rem;
+    height: 2.0rem;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+    margin-top: 1rem;
+    color: #000000; }
+  .container .container-6 {
+    width: 90rem;
+    height: 3.7rem;
+    display: flex;
+    margin-top: 3rem; }
+    .container .container-6 .text {
+      width: 50.9rem;
+      height: 1.2rem;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 1.2rem;
+      color: #000000;
+      padding-top: 1rem; }
+      .container .container-6 .text p span {
+        font-weight: 700; }
+    .container .container-6 input {
+      padding-left: 1rem;
+      width: 24.0rem;
+      height: 3.7rem;
+      border: 0.075rem solid #6E8CA6;
+      border-radius: 0.7rem; }
+  .container .container-7 {
+    width: 90rem;
+    height: 3.7rem;
+    display: flex;
+    margin-top: 1rem; }
+    .container .container-7 .text {
+      width: 50.9rem;
+      height: 1.2rem;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 1.2rem;
+      color: #000000;
+      padding-top: 1rem; }
+      .container .container-7 .text p span {
+        font-weight: 700; }
+    .container .container-7 input {
+      padding-left: 1rem;
+      width: 24.0rem;
+      height: 3.7rem;
+      border: 0.075rem solid #6E8CA6;
+      border-radius: 0.7rem; }
+  .container .container-8 {
+    width: 90rem;
+    height: 2.0rem;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+    margin-top: 3rem;
+    color: #000000; }
+  .container .container-9 {
+    width: 90rem;
+    display: flex;
+    margin-top: 1.3rem; }
+    .container .container-9 input {
+      margin-right: 1.6rem;
+      accent-color: #F27B1A;
+      width: 1.75rem;
+      height: 1.75rem;
+      border-radius: 100%;
+      border: 1rem solid white;
+      background: #F5F5F5;
+      box-shadow: inset 0 0.1rem 0rem 0.1rem rgba(0, 0, 0, 0.07); }
+    .container .container-9 .para {
+      width: 55.5rem;
+      height: 2.2rem;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 2.2rem;
+      color: #414141; }
+  .container .container-10 {
+    width: 90rem;
+    margin-top: 1.4rem; }
+    .container .container-10 .row-1 {
+      display: flex;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 2.2rem;
+      color: #414141; }
+      .container .container-10 .row-1 .column-1 {
+        margin-right: 28.3rem;
+        margin-left: 3rem;
+        width: 12.8rem;
+        height: 2.2rem; }
+      .container .container-10 .row-1 .column-2 {
+        width: 12.3rem;
+        height: 2.2rem; }
+  .container .container-11 {
+    width: 90rem;
+    margin-top: 0.4rem; }
+    .container .container-11 .row-1 {
+      display: flex; }
+      .container .container-11 .row-1 input {
+        padding-left: 1.1rem;
+        width: 24.0rem;
+        height: 3.7rem;
+        border: 0.075rem solid #6E8CA6;
+        border-radius: 0.7rem; }
+      .container .container-11 .row-1 .input-1 {
+        margin-right: 17.1rem;
+        margin-left: 3rem; }
+  .container .container-12 {
+    width: 90rem;
+    margin-top: 1.4rem; }
+    .container .container-12 .row-1 {
+      display: flex;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 2.2rem;
+      color: #414141; }
+      .container .container-12 .row-1 .column-1 {
+        margin-right: 15.3rem;
+        margin-left: 3rem;
+        width: 25.8rem;
+        height: 2.2rem; }
+      .container .container-12 .row-1 .column-2 {
+        width: 36.2rem;
+        height: 2.2rem; }
+  .container .container-13 {
+    width: 90rem;
+    margin-top: 0.4rem; }
+    .container .container-13 .row-1 {
+      display: flex; }
+      .container .container-13 .row-1 input {
+        padding-left: 1.1rem;
+        width: 24.0rem;
+        height: 3.7rem;
+        border: 0.075rem solid #6E8CA6;
+        border-radius: 0.7rem; }
+      .container .container-13 .row-1 .input-1 {
+        margin-right: 17.1rem;
+        margin-left: 3rem; }
+  .container .container-14 {
+    width: 90rem; }
+    .container .container-14 .row-1 {
+      margin-left: 3rem;
+      margin-top: 2.5rem;
+      display: flex; }
+      .container .container-14 .row-1 .column-1 {
+        margin-right: 1rem; }
+        .container .container-14 .row-1 .column-1 input {
+          width: 1.6rem;
+          height: 1.6rem;
+          background: #FFFFFF;
+          border: 0.0775rem solid #6E8CA6;
+          border-radius: 0.75rem; }
+      .container .container-14 .row-1 .column-2 {
+        width: 74.6rem;
+        height: 10.0rem;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 2.0rem;
+        color: #000000; }
+  .container .container-15 {
+    width: 90rem; }
+    .container .container-15 .row-1 {
+      margin-left: 3rem;
+      margin-top: 1.5rem;
+      display: flex; }
+      .container .container-15 .row-1 .column-1 {
+        margin-right: 1rem; }
+        .container .container-15 .row-1 .column-1 input {
+          width: 1.6rem;
+          height: 1.6rem;
+          background: #FFFFFF;
+          border: 0.0775rem solid #6E8CA6;
+          border-radius: 0.75rem; }
+      .container .container-15 .row-1 .column-2 {
+        width: 74.6rem;
+        height: 8.0rem;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 2.0rem;
+        color: #000000; }
+  .container .container-16 {
+    width: 90rem; }
+    .container .container-16 .row-1 {
+      margin-left: 3rem;
+      margin-top: 1.5rem;
+      display: flex; }
+      .container .container-16 .row-1 .column-1 {
+        margin-right: 1rem; }
+        .container .container-16 .row-1 .column-1 input {
+          width: 1.6rem;
+          height: 1.6rem;
+          background: #FFFFFF;
+          border: 0.0775rem solid #6E8CA6;
+          border-radius: 0.75rem; }
+      .container .container-16 .row-1 .column-2 {
+        width: 74.6rem;
+        height: 4.0rem;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 2.0rem;
+        color: #000000; }
+  .container .container-17 {
+    width: 90rem; }
+    .container .container-17 .row-1 {
+      margin-left: 3rem;
+      margin-top: 1.5rem;
+      display: flex; }
+      .container .container-17 .row-1 .column-1 {
+        margin-right: 1rem; }
+        .container .container-17 .row-1 .column-1 input {
+          width: 1.6rem;
+          height: 1.6rem;
+          background: #FFFFFF;
+          border: 0.0775rem solid #6E8CA6;
+          border-radius: 0.75rem; }
+      .container .container-17 .row-1 .column-2 {
+        width: 74.6rem;
+        height: 4.0rem;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 2.0rem;
+        color: #000000; }
+  .container .container-18 {
+    margin-top: 3rem;
+    width: 90rem;
+    display: flex; }
+    .container .container-18 .input-field {
+      margin-right: 1.25rem; }
+      .container .container-18 .input-field input {
+        width: 1.75rem;
+        height: 1.75rem;
+        background: #F5F5F5;
+        box-shadow: inset 0 0.1rem 0rem 0.1rem rgba(0, 0, 0, 0.07); }
+    .container .container-18 .para {
+      width: 81.9rem;
+      height: 2.2rem;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 2.2rem;
+      color: #414141; }
+  .container .container-19 {
+    margin-top: 3rem;
+    width: 90rem;
+    display: flex; }
+    .container .container-19 .input-field {
+      margin-right: 1.25rem; }
+      .container .container-19 .input-field input {
+        width: 1.75rem;
+        height: 1.75rem;
+        background: #F5F5F5;
+        box-shadow: inset 0 0.1rem 0rem 0.1rem rgba(0, 0, 0, 0.07); }
+    .container .container-19 .para {
+      width: 81.9rem;
+      height: 2.2rem;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 2.2rem;
+      color: #414141; }
+  .container .container-20 {
+    margin-top: 3rem;
+    width: 90rem;
+    display: flex; }
+    .container .container-20 .input-field {
+      margin-right: 1.25rem; }
+      .container .container-20 .input-field input {
+        width: 1.75rem;
+        height: 1.75rem;
+        background: #F5F5F5;
+        box-shadow: inset 0 0.1rem 0rem 0.1rem rgba(0, 0, 0, 0.07); }
+    .container .container-20 .para {
+      width: 81.9rem;
+      height: 2.2rem;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 2.2rem;
+      color: #414141; }
+  .container .container-21 {
+    padding-top: 2.5rem;
+    width: 90rem;
+    height: 24.0rem;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+    color: #000000; }
+    .container .container-21 .p2 {
+      margin-top: 2.5rem; }
+    .container .container-21 .p3 {
+      margin-top: 2.5rem; }
+  .container .container-22 {
+    margin-top: 3rem;
+    width: 90rem;
+    height: 4.5rem;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rems;
+    line-height: 2.0rem;
+    color: #000000; }
+    .container .container-22 .p2 {
+      margin-top: 0.5rem; }
+  .container .container-23 {
+    width: 90rem;
+    margin-top: 4.15rem;
+    margin-bottom: 4rem; }
+    .container .container-23 .btn-1 {
+      margin-right: 4rem;
+      border: 0;
+      width: 16.8rem;
+      height: 3.9rem;
+      background: #CFCFCF;
+      border-radius: 2.0rem;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+      text-align: center;
+      letter-spacing: 0.05rem;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+    .container .container-23 .btn-2 {
+      width: 13.1rem;
+      height: 3.9rem;
+      background: #FFFFFF;
+      border: 0.15rem solid #939393;
+      border-radius: 2.0rem;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+      text-align: center;
+      letter-spacing: 0.05rem;
+      text-transform: uppercase;
+      color: #939393; }
+
+.empty p {
+  height: 28.1rem;
+  visibility: hidden;
+  background-color: #E5E5E5; }

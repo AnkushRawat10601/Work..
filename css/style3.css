@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background: #E5E5E5; }
+
+.icici-logo {
+  margin-left: 1.5rem; }
+
+.color-bar {
+  margin-top: 1.1rem;
+  height: 5rem;
+  background: #F27B1A; }
+  .color-bar p {
+    visibility: hidden; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .content .content-1 {
+    margin-top: 2.2rem;
+    width: 80rem;
+    display: flex;
+    justify-content: space-between; }
+    .content .content-1 .text-1 {
+      width: 19.7rem;
+      height: 2.5rem;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.8rem;
+      line-height: 2.5rem;
+      color: #414141; }
+    .content .content-1 .text-2 {
+      width: 10.3rem;
+      height: 1.8rem;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+      color: #004A7F;
+      padding-top: 1rem;
+      text-align: right;
+      text-decoration-line: underline;
+      text-transform: capitalize; }
+  .content .content-main-2 {
+    width: 80rem;
+    margin-top: 3rem; }
+    .content .content-main-2 .row-1 {
+      display: flex;
+      padding-left: 2rem; }
+      .content .content-main-2 .row-1 .column-1 {
+        width: 3.0rem;
+        height: 3.0rem;
+        position: relative;
+        margin-top: 0; }
+        .content .content-main-2 .row-1 .column-1 .img1 {
+          z-index: 0;
+          position: absolute; }
+        .content .content-main-2 .row-1 .column-1 .img2 {
+          z-index: 1;
+          position: absolute;
+          left: 1rem;
+          top: 1rem; }
+      .content .content-main-2 .row-1 .column-2 .dotted-line {
+        width: 16.4rem;
+        border: 0.1rem dashed #3C8EC9;
+        margin-top: 1.5rem;
+        height: 0; }
+      .content .content-main-2 .row-1 .column-3 .dotted-line {
+        width: 16.4rem;
+        border: 0.1rem dashed #3C8EC9;
+        margin-top: 1.5rem;
+        height: 0; }
+      .content .content-main-2 .row-1 .column-4 {
+        width: 3.0rem;
+        height: 3.0rem;
+        position: relative;
+        margin-top: 0; }
+        .content .content-main-2 .row-1 .column-4 .img1 {
+          z-index: 0;
+          position: absolute; }
+        .content .content-main-2 .row-1 .column-4 .img2 {
+          z-index: 1;
+          position: absolute;
+          left: 1rem;
+          top: 1rem; }
+      .content .content-main-2 .row-1 .column-5 .dotted-line {
+        width: 16.4rem;
+        border: 0.1rem dashed #3C8EC9;
+        margin-top: 1.5rem;
+        height: 0; }
+      .content .content-main-2 .row-1 .column-6 .dotted-line {
+        width: 16.4rem;
+        border: 0.1rem dashed #3C8EC9;
+        margin-top: 1.5rem;
+        height: 0; }
+      .content .content-main-2 .row-1 .column-7 {
+        width: 3.0rem;
+        height: 3.0rem;
+        position: relative;
+        margin-top: 0; }
+        .content .content-main-2 .row-1 .column-7 .img1 {
+          z-index: 0;
+          position: absolute; }
+        .content .content-main-2 .row-1 .column-7 .img2 {
+          z-index: 1;
+          position: absolute;
+          left: 1rem;
+          top: 1rem; }
+    .content .content-main-2 .row-2 {
+      margin-top: 1rem;
+      display: flex;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 1.9rem;
+      color: #414141; }
+      .content .content-main-2 .row-2 .txt-1 {
+        width: 8.6rem;
+        height: 3.8rem;
+        margin-right: 24.4rem;
+        text-align: center; }
+      .content .content-main-2 .row-2 .txt-2 {
+        width: 12.0rem;
+        height: 3.8rem;
+        margin-right: 25.6rem;
+        text-align: center; }
+      .content .content-main-2 .row-2 .txt-3 {
+        height: 3.8rem;
+        width: 9.4rem;
+        text-align: center; }
+  .content .content-3 {
+    margin-top: 3.3rem;
+    margin-bottom: 36.7rem;
+    width: 80rem;
+    background: #FFFFFF;
+    height: 53.8rem;
+    border: 0.05rem solid #CFD7ED;
+    box-shadow: 0 0.2rem 0.8rem rgba(222, 227, 242, 0.4);
+    border-radius: 1rem;
+    padding-top: 2rem;
+    padding-left: 2.3rem;
+    padding-bottom: 4rem; }
+    .content .content-3 .content-3-text-1 {
+      width: 12.7rem;
+      height: 1.8rem;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      color: #414141; }
+    .content .content-3 .content-3-text-2 {
+      width: 47.3rem;
+      height: 15.1rem;
+      margin-top: 1.5rem;
+      background: #FFFFFF;
+      border: 0.05rem solid #CFD7ED;
+      box-shadow: 0rem 0.2rem 0.8rem rgba(222, 227, 242, 0.4);
+      border-radius: 1rem;
+      display: flex; }
+      .content .content-3 .content-3-text-2 .data-1 {
+        border-right: 1px solid #CFD7ED; }
+        .content .content-3 .content-3-text-2 .data-1 .row-1 {
+          display: flex;
+          width: 29.1rem;
+          height: 7.55rem; }
+          .content .content-3 .content-3-text-2 .data-1 .row-1 .column-1 {
+            width: 14.55rem;
+            padding-top: 2rem;
+            padding-left: 2rem; }
+            .content .content-3 .content-3-text-2 .data-1 .row-1 .column-1 .bold {
+              font-family: 'Open Sans';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 1.4rem;
+              line-height: 1.9rem;
+              color: #414141; }
+          .content .content-3 .content-3-text-2 .data-1 .row-1 .column-2 {
+            width: 14.55rem;
+            padding-top: 2rem; }
+            .content .content-3 .content-3-text-2 .data-1 .row-1 .column-2 .bold {
+              font-family: 'Open Sans';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 1.4rem;
+              line-height: 1.9rem;
+              color: #414141; }
+            .content .content-3 .content-3-text-2 .data-1 .row-1 .column-2 .light {
+              font-family: 'Open Sans';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 1.4rem;
+              line-height: 1.9rem;
+              /* identical to box height */
+              color: #414141;
+              margin-top: 0.5rem; }
+        .content .content-3 .content-3-text-2 .data-1 .row-2 {
+          display: flex;
+          width: 29.1rem;
+          height: 7.55rem; }
+          .content .content-3 .content-3-text-2 .data-1 .row-2 .column-1 {
+            width: 14.55rem;
+            padding-top: 2rem;
+            padding-left: 2rem; }
+            .content .content-3 .content-3-text-2 .data-1 .row-2 .column-1 .bold {
+              font-family: 'Open Sans';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 1.4rem;
+              line-height: 1.9rem;
+              color: #414141; }
+          .content .content-3 .content-3-text-2 .data-1 .row-2 .column-2 {
+            width: 14.55rem;
+            padding-top: 2rem; }
+            .content .content-3 .content-3-text-2 .data-1 .row-2 .column-2 .bold {
+              font-family: 'Open Sans';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 1.4rem;
+              line-height: 1.9rem;
+              color: #414141; }
+            .content .content-3 .content-3-text-2 .data-1 .row-2 .column-2 .light {
+              font-family: 'Open Sans';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 1.4rem;
+              line-height: 1.9rem;
+              /* identical to box height */
+              color: #414141;
+              margin-top: 0.5rem; }
+      .content .content-3 .content-3-text-2 .data-2 .txt-1 {
+        width: 18.2rem;
+        height: 7.55rem;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+        color: #414141;
+        padding-top: 2rem;
+        padding-left: 3rem; }
+      .content .content-3 .content-3-text-2 .data-2 .txt-2 {
+        padding-left: 3rem;
+        width: 18.2rem;
+        height: 7.55rem;
+        padding-top: 2rem;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+        color: #414141; }
+    .content .content-3 .content-3-text-3 {
+      width: 45.3rem;
+      height: 1.8rem;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      color: #414141;
+      margin-top: 3rem; }
+    .content .content-3 .content-3-text-4 {
+      width: 5.7rem;
+      height: 1.6rem;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+      color: #414141;
+      margin-top: 1.5rem; }
+    .content .content-3 .content-3-text-5 {
+      display: flex;
+      margin-top: 1.5rem; }
+      .content .content-3 .content-3-text-5 .content-data-1 {
+        width: 22.1rem;
+        height: 12.1rem;
+        border-radius: 0.2rem; }
+      .content .content-3 .content-3-text-5 .content-data-2 {
+        margin-left: 2rem; }
+        .content .content-3 .content-3-text-5 .content-data-2 p {
+          width: 36.5rem;
+          height: 3.6rem;
+          padding-right: 3rem;
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.2rem;
+          line-height: 1.8rem;
+          color: #414141; }
+          .content .content-3 .content-3-text-5 .content-data-2 p span {
+            font-weight: 600; }
+        .content .content-3 .content-3-text-5 .content-data-2 .content-data-2-btn p {
+          margin-top: 2.7rem;
+          letter-spacing: 5.6rem;
+          width: 0.9rem;
+          height: 1.9rem;
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 1.4rem;
+          line-height: 1.9rem;
+          /* identical to box height */
+          color: #414141;
+          margin-bottom: 0.9rem;
+          padding-left: 2rem; }
+        .content .content-3 .content-3-text-5 .content-data-2 .content-data-2-btn .btn {
+          width: 5.5rem;
+          height: 3.0rem;
+          background: #FFFFFF;
+          border: 0.1rem solid #6E8CA6;
+          border-radius: 0.7rem;
+          margin-right: 1rem; }
+    .content .content-3 .content-3-text-10 {
+      margin-top: 4rem; }
+      .content .content-3 .content-3-text-10 .btn-1 {
+        width: 13.1rem;
+        height: 3.9rem;
+        background: #C4C4C4;
+        border: 0.2rem solid #C4C4C4;
+        border-radius: 2.0rem;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        text-align: center;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase;
+        color: white;
+        margin-right: 3rem; }
+      .content .content-3 .content-3-text-10 .btn-2 {
+        width: 13.1rem;
+        height: 3.9rem;
+        border: 0.2px solid #F27B1A;
+        border-radius: 2.0rem;
+        background-color: white;
+        color: #F27B1A;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        text-align: center;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase; }

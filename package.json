@@ -1,0 +1,16 @@
+{
+  "name": "icici_rib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/Reissue_of_debit_card_1.scss css/style1.css -w"
+
+
+  },
+  "author": "Ankush Rawat",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
